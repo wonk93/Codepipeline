@@ -12,7 +12,7 @@ phases:
   build:
     commands:
       - echo "Vamos a realizar una prueba"
-      - grep -Fq "amigos" index.php
+      - grep -Fq "estudiantes" index.php
   post_build:
     commands:
       - echo "Empezamos la fase de post-compilación"
